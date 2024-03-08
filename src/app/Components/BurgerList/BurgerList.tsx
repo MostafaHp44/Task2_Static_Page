@@ -1,11 +1,8 @@
 "use client"
 import { useState } from 'react';
-import logo from './logo/logo.png'
 import SearchIcon from '@mui/icons-material/Search';
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 import profile from './logo/Profile.jpg'
-import AddCircleOutlineOutlinedIcon from '@mui/icons-material/AddCircleOutlineOutlined';
-import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import Image from "next/image";
 
 
