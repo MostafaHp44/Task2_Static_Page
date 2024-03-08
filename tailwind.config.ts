@@ -13,8 +13,14 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        custom: ['Your Font Family', 'nunito'],
+      },
     },
   },
   plugins: [],
+  breakpoints: {
+    sm: '640px', // Small screens and up
+  },
 };
 export default config;
