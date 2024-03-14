@@ -1,20 +1,17 @@
 "use client"
 import React, { useState } from "react";
-import AddCircleOutlineOutlinedIcon from '@mui/icons-material/AddCircleOutlineOutlined';
 import Image from "next/image";
-import p1 from './producat/p1.jpg'
+import AddCircleOutlineOutlinedIcon from '@mui/icons-material/AddCircleOutlineOutlined';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import p1 from './producat/p1.jpg'
 
 const ItemCard=()=>{
 
     const[love,setlove]=useState(false)
     const[love1,setlove1]=useState(false)
     const[love2,setlove2]=useState(false)
-    const[love3,setlove3]=useState(false)
-    const[love4,setlove4]=useState(false)
-
-
+   
     const handellove=()=>{
         
         setlove(event=>!event)
@@ -33,17 +30,7 @@ const ItemCard=()=>{
 
     }
 
-    const handellove3=()=>{
-        
-        setlove3(event=>!event)
-
-    }
-
-    const handellov4e=()=>{
-        
-        setlove4(event=>!event)
-
-    }
+  
 return(
 
     <div className="bg-white p-5 grid rounded-2xl m-3 h-full">
